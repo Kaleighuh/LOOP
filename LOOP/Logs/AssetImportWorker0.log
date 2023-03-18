@@ -171,3 +171,90 @@ Received Import Request.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/SampleScene.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0314de4939330f30631d5118ab8907') in 0.005627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 773.197341 seconds.
+  path: Assets/Scripts/OG Scripts/GameOver.cs
+  artifactKey: Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OG Scripts/GameOver.cs using Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829b1d20b32637b154d293a462d9d668') in 0.014332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.913985 seconds.
+  path: Assets/Scripts/OG Scripts/PlayerController.cs
+  artifactKey: Guid(2030db9c6726ec542a4fef5d61850859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OG Scripts/PlayerController.cs using Guid(2030db9c6726ec542a4fef5d61850859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be74f67765b126aaf5a86db888716bb4') in 0.002397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 234.019487 seconds.
+  path: Assets/Scripts/OG Scripts/GameOver.cs
+  artifactKey: Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OG Scripts/GameOver.cs using Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd86ad57f09399e071a3537768a1fd2') in 0.002335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.306864 seconds.
+  path: Assets/Scripts/OG Scripts/GameOver.cs
+  artifactKey: Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OG Scripts/GameOver.cs using Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce32eef7bb1796d6b169d2357f14ed4b') in 0.002031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.988591 seconds.
+  path: Assets/Scripts/OG Scripts/GameOver.cs
+  artifactKey: Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OG Scripts/GameOver.cs using Guid(457cc38e847a2bc4a899380f88b60c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42d370160192a7935655c91e0890cec') in 0.001361 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\18014\Documents\Repos\LOOP\LOOP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\18014\Documents\Repos\LOOP\LOOP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.555 seconds
+Domain Reload Profiling:
+	ReloadAssembly (555ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.9 KB). Loaded Objects now: 3987.
+Memory consumption went from 120.5 MB to 120.4 MB.
+Total: 2.019000 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.737800 ms  DeleteObjects: 0.053100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
