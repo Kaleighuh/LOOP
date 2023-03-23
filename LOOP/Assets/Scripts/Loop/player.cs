@@ -9,6 +9,7 @@ public class player : MonoBehaviour
     public float jumpVelocity = 20;
     public float groundHeight = 10;
     public bool isGrounded = false;
+    public bool isHoldingJump = false;
     void Start()
     {
         
@@ -22,21 +23,32 @@ public class player : MonoBehaviour
             {
                 isGrounded = false;
                 velocity.y = jumpVelocity;
+                isHoldingJump = true;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            isHoldingJump = false;
+            
         }
     }
 
     private void FixedUpdate()
     {
         Vector2 pos = transform.position;
-        //Time.fixedDeltaTime; //locked framerate, want our jumps to always look the same.
+        //Time.fixedDeltaTime locked framerate, want our jumps to always look the same.
         if (!isGrounded)
         {
             pos.y += velocity.y * Time.fixedDeltaTime;
-            velocity.y += gravity * Time.fixedDeltaTime;
+            if (!isHoldingJump)
+            {
+                velocity.y += gravity * Time.fixedDeltaTime;
+            }
 
             if (pos.y <= groundHeight)
             {
+                pos.y = groundHeight;
                 isGrounded = true;
             }
         }
